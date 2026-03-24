@@ -15,8 +15,8 @@
   --font-body: 'arial';
 
   /* Background - Color */
-  --bg-color-primary: rgb(59, 121, 255);
-  --bg-color-secondary: rgb(28, 97, 248);
+  --bg-color-primary: rgba(59, 121, 255, 0.3);
+  --bg-color-secondary: rgba(28, 98, 248, 0.3);
   --bg-color-button: rgb(0, 132, 255);
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -24,7 +24,7 @@ html {
   scroll-behavior: smooth; font-size: 16px; 
 }
 body{
-  background-color: var(--bg-color-primary);
+   background-image: url('background.png'); 
   color: var(--text-color-primary);
   font-family: var(--font-body);
 }
@@ -124,8 +124,8 @@ body{
   --font-body: 'arial';
 
   /* Background - Color */
-  --bg-color-primary: rgb(59, 121, 255);
-  --bg-color-secondary: rgb(28, 97, 248);
+  --mb-bg-color-primary: rgba(59, 121, 255, 0.2);
+  --mb-bg-color-secondary: rgba(28, 98, 248, 0.2);
   --bg-color-button: rgb(0, 132, 255);
 }
 .header__name{
